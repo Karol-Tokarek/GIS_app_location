@@ -78,7 +78,7 @@ public class ShowMap extends AppCompatActivity implements OnMapReadyCallback, Go
 
     public void setRouteDraw() {
 //        GeoApiContext context = new GeoApiContext.Builder()
-//                .apiKey("AIzaSyBrPt88vvoPDDn_imh-RzCXl5Ha2F2LYig")
+//                .apiKey("")
 //                .build();
 //        DirectionsApiRequest req = DirectionsApi.getDirections(context, "41.385064,2.173403", "40.416775,-3.70379");
     }
@@ -314,7 +314,7 @@ public class ShowMap extends AppCompatActivity implements OnMapReadyCallback, Go
 //        tracking = true;
         //btntracking.setChecked(true);
         geoApiContext = new GeoApiContext.Builder()
-                .apiKey("AIzaSyBcpt9FUi3Js8Tam0szankonJfN0ga7-ME")
+//                .apiKey("-ME")
                 .build();
 
         DirectionsResult directionsResult = DirectionsApi.newRequest(geoApiContext)
